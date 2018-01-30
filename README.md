@@ -1,1 +1,1 @@
-# Webpack/npm/angularJS demo
+# angularJS/redux demo
