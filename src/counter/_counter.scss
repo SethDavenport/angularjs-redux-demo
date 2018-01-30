@@ -1,0 +1,11 @@
+ws-counter {
+  display: flex;
+}
+
+.ws-counter {
+  &__span {
+    font-size: 32px;
+    text-align: center;
+    width: 40px;
+  }
+}

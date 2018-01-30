@@ -1,0 +1,24 @@
+<h1>Redux AngularJS Demo</h1>
+
+<h2>Apples</h2>
+<ws-counter
+  count="$ctrl.apples"
+  on-increment="$ctrl.increment('apples')"
+  on-decrement="$ctrl.decrement('apples')">
+</ws-counter>
+
+<h2>Bananas</h2>
+<ws-counter
+  count="$ctrl.bananas"
+  on-increment="$ctrl.increment('bananas')"
+  on-decrement="$ctrl.decrement('bananas')">
+</ws-counter>
+
+<h2>Oranges</h2>
+<ws-counter
+  count="$ctrl.oranges"
+  on-increment="$ctrl.increment('oranges')"
+  on-decrement="$ctrl.decrement('oranges')">
+</ws-counter>
+
+<h1>Total: {{ $ctrl.totalFruits }} Fruits</h1>
